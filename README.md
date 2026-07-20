@@ -36,8 +36,8 @@ The notebook extracts and organizes the SDTM mapping information associated with
 - `Dataset Metadata` (Every domain in the CRF and its description)
 - `Variable Metadata` (Every SDTM domain, variable and testcd in the CRF)
 - `REDCap Values` (REDCap Submission Values)
-- `Mapped Variables` (Codelist (if applicable) of every previously mapped SDTM variable)
-- `Linked Codelist` (REDCap Submission Terms linked by similarity to SDTM preferred terms)
+- `Variables Codelists` (Codelist (if applicable) of every previously mapped SDTM variable)
+- `Controlled Terminology` (REDCap Submission Terms linked by similarity to SDTM preferred terms)
 
 📑 The script also generates:
 
