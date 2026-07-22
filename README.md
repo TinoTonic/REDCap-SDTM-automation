@@ -31,7 +31,7 @@ The notebook extracts and organizes the SDTM mapping information associated with
 - REDCap choices and alternative terms;
 - Similarity based relationships between SDTM Submission Values and REDCap terms.
   
-📗 The generated Excel file has 4 sheets:
+📗 The generated Excel file has 5 sheets:
 
 - `Dataset Metadata` (Every domain in the CRF and its description)
 - `Variable Metadata` (Every SDTM domain, variable and testcd in the CRF)
