@@ -1,6 +1,10 @@
 # 🐍 Python-Based REDCap-to-SDTM Automation
 
-📍 REDCap_SDTM_Bridge.ipynb
+Complete Pipeline  
+- 📕 REDCap_SDTM_Bridge.ipynb
+
+Separated aCRF generation script  
+- 📄 Gen_aCRF.ipynb 
 
 ```text
 REDCap Data Dictionary
