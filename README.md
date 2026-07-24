@@ -1,10 +1,13 @@
-# 🐍 Python-Based REDCap-to-SDTM Automation
+# 🐍 REDCap SDTM Automation :octocat: 
 
-Complete Pipeline  
-- 📕 REDCap_SDTM_Bridge.ipynb
+**Complete Pipeline [SDTM Mapper + aCRF generator]**
+- 📕 REDCap_SDTM.ipynb
 
 Separated aCRF generation script  
-- 📄 Gen_aCRF.ipynb 
+- 📄 Gen_aCRF.ipynb
+
+Separated SDTM Mapping script  
+- 📄 Gen_SDTM_Map.ipynb 
 
 ```text
 REDCap Data Dictionary
