@@ -1,4 +1,9 @@
-# 🐍 REDCap SDTM Automation :octocat: 
+# 🐍 REDCap SDTM Automation
+<p align="left">
+  <img src="images/SDTM.png" height="80"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/REDCapPy.png" height="80"/>
+</p>
 
 **Complete Pipeline [SDTM Mapper + aCRF generator]**
 - 📕 REDCap_SDTM.ipynb
