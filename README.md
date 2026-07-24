@@ -127,11 +127,15 @@ Example 3.1. SDTM:IT.SUPPDM.TESTCD.MARISTAT
 
 ## 💡 Features To Be Added
 
+✒ Test data folder with:
+
+- `REDCap Data`, `Annotated PDF`, `SDTM Mapping` and an `Annotated CRF` of a `test CRF` and `SDTM Terminology` official file.
+
 ✒ Annotated CRF script non dependant of the external module "Annotated PDF"
 
-✒ Possibility of recording both the TESTCD as well as the TEST description in the REDCap Field Annotation to further optimize the dataset programming.
+✒ Possibility of recording both the `TESTCD` as well as the `TEST` description in the REDCap Field Annotation to further optimize the dataset programming.
 
-- SDTM:IT.(domain name).(variable name).(test code).(test description);
+- `SDTM:IT.(domain name).(variable name).(test code).(test description);`
 
 ## 📌 References
 
