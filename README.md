@@ -125,6 +125,14 @@ Example 3. SDTM:IT.SUPPDM.QVAL.MARISTAT
 
 Example 3.1. SDTM:IT.SUPPDM.TESTCD.MARISTAT
 
+## 💡 Features To Be Added
+
+✒ Annotated CRF script non dependant of the external module "Annotated PDF"
+
+✒ Possibility of recording both the TESTCD as well as the TEST description in the REDCap Field Annotation to further optimize the dataset programming.
+
+- SDTM:IT.(domain name).(variable name).(test code).(test description);
+
 ## 📌 References
 
 [1] Yamamoto K, Ota K, Akiya I, Shintani A. A pragmatic method for transforming clinical research data from the research electronic data capture (REDCap) to Clinical Data Interchange Standards Consortium (CDISC) Study Data Tabulation Model (SDTM): Development and evaluation of REDCap2SDTM. *Journal of Biomedical Informatics*. 2017;70:65–76. https://doi.org/10.1016/j.jbi.2017.05.003
