@@ -92,19 +92,39 @@ Example 3.1. SDTM:IT.SUPPDM.TESTCD.MARISTAT
 Example 4. SDTM:IT.MH.MHTERM;
 <img width="782" height="309" alt="image" src="https://github.com/user-attachments/assets/121bd271-451f-4bb7-a623-a1b748066afa" />
 
-## 💡 Features To Be Added
+## 🚀 To Be Added
 
-⚪ Test data folder with: 
+### 📦 Test Data & Documentation
 
-- `REDCap Data`, `Annotated PDF`, `SDTM Mapping` and an `Annotated CRF` of a `test CRF` and `SDTM Terminology` official file.
+* Add a `test_data/` folder containing:
 
-⚪ Annotated CRF script non dependant of the external module "Annotated PDF".
+  * `REDCap Data`
+  * `Annotated CRF`
+  * `Annotated PDF`
+  * `SDTM Mapping`
+  * Official `SDTM Terminology` files
+* Provide a complete end-to-end example using a test CRF.
 
-⚪​ Possibility of recording both the `TESTCD` as well as the `TEST` description in the REDCap Field Annotation to further optimize the dataset programming.
+### 📝 More Annotated CRF options
 
-- `SDTM:IT.(domain name).(variable name).(test code).(test description);`
+* Develop an alternative Annotated CRF generation script independent of the external Annotated PDF module.
 
-⚪​ Possibility of assigning more than one SDTM Variable to one field.
+### 🧬 SDTM Mapping
+
+* Support recording both `TESTCD` and `TEST` descriptions directly in the REDCap Field Annotation to further optimize dataset programming.
+
+  ```text
+  SDTM:IT.(domain name).(variable name).(test code).(test description);
+  ```
+
+* Support assigning multiple SDTM Variables to a single REDCap field.
+
+### ⚙️ Code Optimization
+
+* Remove unnecessary `for` loops originally implemented for visualization purposes.
+* Replace iterative operations with more efficient `merge`/join-based approaches where applicable.
+* Simplify and optimize the overall data-processing pipeline.
+
 
 ## 📌 References
 
