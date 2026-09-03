@@ -92,18 +92,33 @@ Example 3.1. SDTM:IT.SUPPDM.TESTCD.MARISTAT
 Example 4. SDTM:IT.MH.MHTERM;
 <img width="782" height="309" alt="image" src="https://github.com/user-attachments/assets/121bd271-451f-4bb7-a623-a1b748066afa" />
 
+## 🔎 **CDISC Controlled Terminology** automation by similarity
+
+`Automatically` matches `REDCap values` to the closest `CDISC Controlled Terminology` term using text similarity.
+
+The similarity score is calculated using `rapidfuzz` by comparing:
+
+**REDCap Value ↔ SDTM Submission Value**
+
+**REDCap Term ↔ NCI Preferred Term**
+
+Similarity scores are calculated for each pair, and the highest-scoring match is applied to the REDCap data. A minimum similarity threshold of 70% is used, as this threshold provided better matching results during testing.
+
+For example:
+
+| REDCap Value | REDCap Term      | SDTM Submission Value | NCI Preferred Term   |
+| ------------ | ---------------- | --------------------- | -------------------- |
+| `1`          | Man              | `M`                   | Male                 |
+| `2`          | Fem              | `F`                   | Female               |
+| `3`          | Not known        | `UNK`                 | Unknown              |
+| `4`          | Doesn't apply    | `NA`                  | Not Applicable       |
+
+If no suitable match is found, the **REDCap Term** can be adjusted in the eCRF to increase its similarity to the **NCI Preferred Term**, without changing the **REDCap Value**.
+
+This allows an **automatic link** between **REDCap data** and **Controlled Terminology** simply by adjusting the **REDCap Term**, **without changing the original REDCap Value**. Therefore, **it does not interfere with the CRF's branching logic**, which continues to operate based on the original REDCap values.
+
+
 ## 🚀 To Be Added
-
-### 📦 Test Data & Documentation
-
-* Add a `test_data/` folder containing:
-
-  * `REDCap Data`
-  * `Annotated CRF`
-  * `Annotated PDF`
-  * `SDTM Mapping`
-  * Official `SDTM Terminology` files
-* Provide a complete end-to-end example using a test CRF.
 
 ### 📝 More Annotated CRF options
 
