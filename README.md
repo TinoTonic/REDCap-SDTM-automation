@@ -14,6 +14,16 @@ Converts `REDCap metadata + eCRF PDF` into a structured `SDTM mapping specificat
 * 📚 Controlled Terminology
 * 🔤 Codelists
 
+### 📂 Notebook Structure
+
+The main workflow is contained in REDCap_SDTM.ipynb, which is divided into two dedicated notebooks for specific tasks:
+
+- Gen_SDTM_Map.ipynb generates the SDTM mapping.
+
+- Gen_aCRF.ipynb generates the annotated CRF (aCRF).
+
+These notebooks are subdivisions of the main REDCap_SDTM.ipynb workflow, allowing the user to run or branch either the SDTM mapping or aCRF generation independently.
+
 ## 🔍 Overview
 
 This project provides a Google Colab notebook for generating CDISC SDTM mapping specifications and SDTM-annotated Case Report Forms (CRFs) from REDCap metadata and SDTM annotations.
