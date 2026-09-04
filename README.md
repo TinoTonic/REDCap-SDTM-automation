@@ -2,6 +2,8 @@
 
 Converts `REDCap metadata + eCRF PDF` into a structured `SDTM mapping specification + Annotated CRF` using **Python / Google Colab**.
 
+**Check the `test data output` folder to see the pipeline results**
+
 **Input**
 
 * 📋 REDCap Data Dictionary *(With SDTM annotations)*
