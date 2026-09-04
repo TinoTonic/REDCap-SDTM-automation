@@ -106,11 +106,11 @@ Example 4. SDTM:IT.MH.MHTERM;
 
 ## 🔎 **CDISC Controlled Terminology** automation by similarity
 
-`Automatically` matches `REDCap values` to the closest `CDISC Controlled Terminology` term using text similarity.
+`Automatically` matches `REDCap values` to the closest `CDISC Controlled Terminology` values using text similarity.
 
 The similarity score is calculated using `rapidfuzz` by comparing:
 
-**REDCap Value ↔ SDTM Submission Value**
+ **REDCap Term ↔ SDTM Submission Value**
 
 **REDCap Term ↔ NCI Preferred Term**
 
