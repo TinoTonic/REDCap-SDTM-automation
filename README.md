@@ -97,9 +97,9 @@ Example 1. SDTM:IT.VS.VSORRES.SYSBP;
 
 Example 2. SDTM:IT.AE.AETERM;
 
-Example 3. SDTM:IT.SUPPDM.QVAL.MARISTAT 
+Example 3. SDTM:IT.SUPPDM.QVAL.MARISTAT;
 
-Example 3.1. SDTM:IT.SUPPDM.TESTCD.MARISTAT
+Example 3.1. SDTM:IT.SUPPDM.TESTCD.MARISTAT;
 
 Example 4. SDTM:IT.MH.MHTERM;
 <img width="782" height="309" alt="image" src="https://github.com/user-attachments/assets/121bd271-451f-4bb7-a623-a1b748066afa" />
